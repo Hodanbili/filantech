@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../CSS/survey.css">
+  </head>
+  <body>
+<h1 id="title"> <p>Survey form</p></h1>
+<p id="description">Survey form of html and css course assesment</p>
+<form id="survey-form"> 
+  <fieldset>
+    <p class="info"> Personal information</p>
+<label id="name-label"> What is your name?<input id="name" name="name" type="text" placeholder="name" required> </label>
+<label id="email-label"> Input your email<input id="email" type="email" placeholder="email"required></label>
+<label id="number-label"> Input your number<input id="number" type="number" 
+min="15"
+max="60"
+placeholder="number"required></label>
+<label> Gender
+<select id="dropdown">
+  <option name="male">Male</option> 
+<option name="female">Female</option>
+</select>
+</label>
+<label>HTML<input type="radio" 
+name="html"
+value="value">
+</label>
+<label>HTML<input type="radio"
+name="html" value="value"> </label>
+<label>which level are you?</label>
+<label>bigener<input value="advance" type="checkbox" class="inline"></label>
+<label>Advance<input value="intermediate" type="checkbox" class="inline"></label>
+</fieldset>
+<textarea id="bio" name="bio" rows="3" cols="30">Bio</textarea>
+<input
+id="submit" type="submit">
+</form>
+</body>
+
